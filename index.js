@@ -13,5 +13,5 @@ function translateToBanana() {
     .then((data) => {
       bananaTextArea.value = data.contents.translated;
     })
-    .catch(alert("Some error occured!, Please try after sometime."));
+    .catch(() => alert("Some error occured!, Please try after sometime."));
 }
