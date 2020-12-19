@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+    --primary: #F5D83D;
+}
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0rem;
+    width: 100%;
+}
+
+
+
+header {
+    text-align: center;
+    background-color: var(--primary);
+    height: 6rem;
+}
+
+footer {
+    background-color: var(--primary);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 8rem;
+    margin: auto;
+}
+
+header h1 {
+    margin: 0rem;
+    padding-top: 2rem;
+    letter-spacing: .1rem;
+}
+
+#btn-translate {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: .5rem;
+    background-color: var(--primary);
+    outline: none;
+    border: .2rem solid var(--primary);
+    font-family: inherit;
+}
+
+#inputTextArea,
+#bananaTextArea {
+    margin-top: 1.5rem;
+    outline: .3rem outset var(--primary);
+    min-height: 15vh;
+    min-width: 25rem;
+
+}
+
+
+.container-center {
+    text-align: center;
+    display: block;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+.about {
+    font-family: inherit;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.about-desc {
+    font-family: inherit;
+    margin-top: 1rem;
+    font-size: smaller;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
